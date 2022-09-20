@@ -1,9 +1,10 @@
 
 import './App.css';
+import Footer from './Footer';
 import LoginUi from './LoginUi/LoginUi';
 import Course from './MainUi/Course';
-import Dashboard from './MainUi/Dashboard';
 import Nav from './MainUi/Nav';
+import Video from './MainUi/Video';
 
 
 
@@ -11,11 +12,13 @@ import Nav from './MainUi/Nav';
 function App() {
   return (
     <>
-      {/* <LoginUi/>  */}
-     {/* <Nav/> 
-    <Course/>  */}
-    {/* <Contact/> */}
-    <Dashboard/>
+      {/* <LoginUi/> */}
+          <Nav/>  
+          {/* <Course/>  */}
+       {/* <Contact/> */}
+          <Video/>  
+          <Footer/> 
+    
     </>
   );
 }
